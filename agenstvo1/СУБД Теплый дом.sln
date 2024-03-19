@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СУБД Теплый дом", "СУБД Теплый дом\СУБД Теплый дом.csproj", "{BE074647-1085-42A8-BF80-224987027B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE074647-1085-42A8-BF80-224987027B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE074647-1085-42A8-BF80-224987027B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE074647-1085-42A8-BF80-224987027B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE074647-1085-42A8-BF80-224987027B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E49E4738-BEE6-4AAF-807C-7E7E9E20D8FE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>СУБД Теплый дом</name>
+    </assembly>
+    <members>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.potrbnostiDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.predlojeniaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.sdelkaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.UsersDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.SdelkaReportDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.potrbnostiRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.predlojeniaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.sdelkaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.UsersRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.SdelkaReportRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.potrbnostiRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.predlojeniaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.sdelkaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.UsersRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSet.SdelkaReportRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.potrbnostiTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.predlojeniaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.sdelkaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.UsersTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.SdelkaReportTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(СУБД_Теплый_дом.agentstvoKleDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(СУБД_Теплый_дом.agentstvoKleDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(СУБД_Теплый_дом.agentstvoKleDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.UpdateAll(СУБД_Теплый_дом.agentstvoKleDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.agentstvoKleDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormAddPotreb.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAddPotreb.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAddPotreb.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormAddPredloj.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAddPredloj.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAddPredloj.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAuthorization.GetCaptcha">
+            <summary>
+            генерация символов капчи
+            </summary>
+            <returns>Строка текста, содержащая символы капчи</returns>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormAuthorization.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAuthorization.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormAuthorization.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormClient.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormClient.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormClient.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormDataRieltor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormDataRieltor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormDataRieltor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormFindLeven.Levenshtein(System.String,System.String)">
+            <summary>
+            вычесление растояния ливенштейна
+            </summary>
+            <param name="Txt1">первая строка</param>
+            <param name="Txt2">вторая строка</param>
+            <returns>расстояние ливенштейна между двумя строками</returns>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormFindLeven.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormFindLeven.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormFindLeven.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormOtschet.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormOtschet.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormOtschet.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormPotrebAndPredlClienta.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormPotrebAndPredlClienta.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormPotrebAndPredlClienta.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormPotrebRieltor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormPotrebRieltor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormPotrebRieltor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormProfel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormProfel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormProfel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.formRegistration.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.formRegistration.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.formRegistration.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:СУБД_Теплый_дом.FormRieltor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormRieltor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:СУБД_Теплый_дом.FormRieltor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:СУБД_Теплый_дом.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:СУБД_Теплый_дом.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:СУБД_Теплый_дом.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:СУБД_Теплый_дом.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:СУБД_Теплый_дом.Properties.Resources.logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
